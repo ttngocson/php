@@ -18,6 +18,7 @@ if(isset($_POST["submit"])){
         echo "$item &nbsp;";
     echo "<br>";
     echo "Ghi chú: $note<br>";
+    echo "<a href=\"javascript:window.history.back(-1);\">Quay lại trang trước</a>";
 }
 else{
     echo "<script>window.location.href = '/PHP_FORM/bt8form.htm'</script>";
@@ -27,5 +28,6 @@ else{
 <head>
     <title>Bài tập 8</title>
 </head>
+<body>
 </html>
 

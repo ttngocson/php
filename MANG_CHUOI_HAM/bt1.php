@@ -12,7 +12,9 @@ if(isset($_POST["submit"]))
         }
         fieldset{
             text-align: left;
-            width: max-content;
+            min-height: 130px;
+            min-width: 315px;
+            max-width: 500px;
             margin:auto;
         }
         body{

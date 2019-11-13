@@ -30,7 +30,7 @@ if(isset($_POST["submit"])){
             background-color: #ccd9cf;
             text-align: center;
             margin-top: 5%;
-            left: 35%;
+            left: 10%;
             position: absolute;
         }
         h2{

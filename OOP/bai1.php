@@ -250,7 +250,6 @@ if(isset($_POST["submit"])){
             background-color: #ccd9cf;
             text-align: center;
             margin-top: 5%;
-            left: 25%;
             min-width: 30%;
             position: absolute;
             border-width: 5px;

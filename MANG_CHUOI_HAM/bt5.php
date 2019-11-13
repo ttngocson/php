@@ -35,7 +35,7 @@ if(isset($_POST["submit"])){
         form{
             text-align: center;
             margin-top: 5%;
-            left: 35%;
+            left: 10%;
             position: absolute;
             border: 1px solid;
             color: #9347a1;

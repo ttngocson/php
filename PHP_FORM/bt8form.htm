@@ -1,71 +1,74 @@
 <html>
+
 <head>
     <title>Bài tập 8</title>
     <meta charset="UTF-8">
     <style>
         fieldset{
             top: 10%;
-            left: 35%;
+            left: 10%;
             position: absolute;
         }
-    </style>
+</style>
 </head>
+
 <body>
-<fieldset style="width: fit-content">
-    <legend>Enter Your Information</legend>
-    <form action="bt8config.php" method="post">
-        <table>
-            <tr>
-                <td>Fullname</td>
-                <td><input type="text" name="name" required></td>
-            </tr>
-            <tr>
-                <td>Address</td>
-                <td><input type="text" name="address" required></td>
-            </tr>
-            <tr>
-                <td>Phone</td>
-                <td><input type="text" name="phone" required></td>
-            </tr>
-            <tr>
-                <td>Gender</td>
-                <td>
-                    <input type="radio" name="gender" value="Nam" checked>Nam
-                    <input type="radio" name="gender" value="Nữ">Nữ
-                </td>
-            </tr>
-            <tr>
-                <td>Country</td>
-                <td>
-                    <select name="country">
-                        <option value="Việt Nam">Việt Nam</option>
-                        <option value="Singapore">Singapore</option>
-                        <option value="Malaysia">Malaysia</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>Study</td>
-                <td>
-                    <input type="checkbox" name="study[]" value="PHP & MySQL">PHP & MySQL
-                    <input type="checkbox" name="study[]" value="ASP.NET">ASP.NET
-                    <input type="checkbox" name="study[]" value="CCNA">CCNA
-                    <input type="checkbox" name="study[]" value="Security+">Security+
-                </td>
-            </tr>
-            <tr>
-                <td>Note</td>
-                <td><textarea rows="4" cols="40" name="note"></textarea></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <button type="submit" name="submit">Gửi</button> &nbsp;
-                    <button type="reset">Hủy</button>
-                </td>
-            </tr>
-        </table>
-    </form>
-</fieldset>
+    <fieldset style="width: fit-content">
+        <legend>Enter Your Information</legend>
+        <form action="bt8config.php" method="post">
+            <table>
+                <tr>
+                    <td>Fullname</td>
+                    <td><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><input type="text" name="address" required></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="text" name="phone" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="Nam" checked>Nam
+                        <input type="radio" name="gender" value="Nữ">Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>
+                        <select name="country">
+                            <option value="Việt Nam">Việt Nam</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Malaysia">Malaysia</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Study</td>
+                    <td>
+                        <input type="checkbox" name="study[]" value="PHP & MySQL">PHP & MySQL
+                        <input type="checkbox" name="study[]" value="ASP.NET">ASP.NET
+                        <input type="checkbox" name="study[]" value="CCNA">CCNA
+                        <input type="checkbox" name="study[]" value="Security+">Security+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Note</td>
+                    <td><textarea rows="4" cols="40" name="note"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit" name="submit">Gửi</button> &nbsp;
+                        <button type="reset">Hủy</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
 </body>
+
 </html>

@@ -35,6 +35,9 @@ if(isset($_POST["submit"])){
     }
     $_SESSION["BXH"] = $BXH;
 }
+if(isset($_POST["view"])){
+    $_SESSION["BXH"] = $BXH_stock;
+}
 ?>
 <head>
     <title>Bảng xếp hạng</title>
@@ -43,7 +46,7 @@ if(isset($_POST["submit"])){
             background-color: #ccd9cf;
             text-align: center;
             margin-top: 5%;
-            left: 35%;
+            left: 20%;
             position: absolute;
         }
         h2{
@@ -63,7 +66,7 @@ if(isset($_POST["submit"])){
     <table align="center">
         <tr>
             <td>Nhập tên bài hát: </td>
-            <td><input type="text" name="name" required></td>
+            <td><input type="text" name="name"></td>
         </tr>
         <tr>
             <td>Nhập thứ hạng trong BXH: </td>

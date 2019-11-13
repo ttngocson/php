@@ -25,8 +25,8 @@
                 background-color: #05aeb3;
                 margin: 0px;
                 text-align: center;
-                width: 25%;
-                left: 40%;
+                margin-top: 10%;
+                left: 20%;
                 position: absolute;
             }
             h3{

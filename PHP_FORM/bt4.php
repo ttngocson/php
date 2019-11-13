@@ -25,8 +25,7 @@ if(isset($_POST["submit"])){
         form{
             margin: 0px;
             text-align: center;
-            width: 30%;
-            left: 35%;
+            left: 20%;
             position: absolute;
         }
     </style>

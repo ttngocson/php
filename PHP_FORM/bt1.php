@@ -18,8 +18,7 @@ $dt = 0;
             form{
                 margin: 0px;
                 text-align: center;
-                width: 20%;
-                left: 40%;
+                left: 10%;
                 position: absolute;
             }
         </style>

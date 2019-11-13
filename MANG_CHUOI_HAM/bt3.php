@@ -55,7 +55,7 @@ if(isset($_POST["submit"])){
         form{
             text-align: center;
             margin-top: 5%;
-            left: 35%;
+            left: 20%;
             position: absolute;
             border: 1px solid;
         }
@@ -79,7 +79,7 @@ if(isset($_POST["submit"])){
     <table style="width: max-content">
         <tr>
             <td class="pink">Nhập số phần tử: </td>
-            <td class="pink" width="250"><input type="number" value="<?php echo $n?>" name="n" min="0" max="10" required></td>
+            <td class="pink" width="200"><input type="number" value="<?php echo $n?>" name="n" min="0" max="10" required></td>
         </tr>
         <tr>
             <td class="pink"></td>

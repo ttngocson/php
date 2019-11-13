@@ -5,7 +5,7 @@ $a = 0;
 $b = 0;
 $kq = 0;
 
-if(isset($_POST["submit"]))
+if(isset($_POST["submit"])){
     $pt = $_POST["pt"];
     $a = $_POST["a"];
     $b = $_POST["b"];
@@ -28,12 +28,16 @@ if(isset($_POST["submit"]))
                 $kq = $a / $b;
             else {
                 $kq = "Lỗi chia cho 0";
+                echo "<script>window.onload(window.history.back(-1))</script>";
                 echo "<script>alert('$kq')</script>";
                 echo "<script>alert('Quay lại trang trước')</script>";
-                echo "<script>window.onload(window.history.back(-1))</script>";
             }
             break;
     }
+
+}
+else
+    echo "<script>window.onload(window.history.back(-1))</script>";
 ?>
 <html>
 <head>

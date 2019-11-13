@@ -73,9 +73,14 @@ class HinhVuong extends Hinh{
             background-color: #ccd9cf;
             text-align: center;
             margin-top: 5%;
-            left: 35%;
+            left: 15%;
             min-width: 30%;
             position: absolute;
+            border-width: 5px;
+            border-style: solid;
+            border-radius: 5px;
+            border-color: #a7bdc7;
+            box-shadow: 5px 4px 0px 2px #a7bdc7;
         }
         h2{
             background-color: #2d9498;

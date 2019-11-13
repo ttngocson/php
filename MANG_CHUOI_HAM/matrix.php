@@ -25,9 +25,8 @@ if(isset($_POST["submit"])){
         form {
             background-color: #ccd9cf;
             text-align: center;
-            margin-top: 5%;
-            left: 35%;
             min-width: 30%;
+            left: 20%;
             position: absolute;
         }
         input{
@@ -68,15 +67,16 @@ if(isset($_POST["submit"])){
     </table>
     <table border="1" align="center">
         <?php
-        for($i = 0; $i < $m; $i++){
-            echo "<tr>";
-            for ($j = 0; $j < $n; $j++){
-                echo "<td>";
-                echo $matrix[$i][$j];
-                echo "</td>";
+        if(isset($_POST["submit"]))
+            for($i = 0; $i < $m; $i++){
+                echo "<tr>";
+                for ($j = 0; $j < $n; $j++){
+                    echo "<td>";
+                    echo $matrix[$i][$j];
+                    echo "</td>";
+                }
+                echo "</tr>";
             }
-            echo "</tr>";
-        }
         ?>
     </table>
     <p><span>(*)</span> Nhập trong khoảng từ 2 đến 10</p>

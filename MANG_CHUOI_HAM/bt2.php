@@ -15,7 +15,7 @@ if(isset($_POST["submit"])){
             background-color: #ccd9cf;
             text-align: center;
             margin-top: 5%;
-            left: 40%;
+            left: 20%;
             position: absolute;
         }
         h2{

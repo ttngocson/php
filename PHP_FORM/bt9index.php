@@ -14,7 +14,7 @@ if(isset($_GET["url"]))
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark">
+    <nav class="navbar navbar-expand bg-dark">
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" href="/PHP_FORM/bt9index.php">Trang chủ</a>

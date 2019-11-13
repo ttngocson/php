@@ -36,11 +36,11 @@ $arr = [];
 
 $JP1 = [];
 $JP2 = [];
-$Snum = 0;
+$Snum = 10;
 $GNhat = [];
 $GNhi = [];
 $GBa = [];
-if(isset($_SESSION["JP1"])){
+if(isset($_SESSION["JP1"]) && isset($_SESSION["JP2"]) && isset($_SESSION["Snum"]) && isset($_SESSION["GNhat"]) && isset($_SESSION["GNhi"]) && isset($_SESSION["GBa"])){
     $JP1 = $_SESSION["JP1"];
     $JP2 = $_SESSION["JP2"];
     $Snum = $_SESSION["Snum"];
@@ -53,7 +53,7 @@ else{
     $_SESSION["JP1"] = $JP1;
     $JP2 = TaoMang(5);
     $_SESSION["JP2"] = $JP2;
-    $Snum = TaoSnum($JP2);
+    $Snum;# = TaoSnum($JP2);
     $_SESSION["Snum"] = $Snum;
     $GNhat = TaoMang(5);
     $_SESSION["GNhat"] = $GNhat;
@@ -133,29 +133,28 @@ if(isset($_POST["check"])){
         form{
             background-color: #ccd9cf;
             text-align: center;
-            margin-top: 5%;
-            left: 35%;
+            left: 5%;
             position: absolute;
         }
-        h1{
+        h2{
             background-color: #2d9498;
             color: white;
             margin: 0px;
             padding: 10px 0px;
         }
         #kq{
-            font-size: 20pt;
+            font-size: 16pt;
             font-weight: bold;
             text-align: center;
         }
         #kq td{
-            padding: 5px;
+            padding: 3px;
         }
     </style>
 </head>
 <body>
 <form action="kqxs.php" method="post">
-    <h1>KẾT QUẢ XỔ SỐ VIETLOT</h1>
+    <h2>KẾT QUẢ XỔ SỐ VIETLOT</h2>
     <table id="kq" border="1">
         <tr>
             <td style="width: 200px">Giải thưởng</td>
