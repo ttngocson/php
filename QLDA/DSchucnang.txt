@@ -1,0 +1,25 @@
+﻿('id','Ten','mô tả','Ghi tắt')
+xem ds
+xem ct
+sửa
+xóa
+thêm
+/-----------------------------
+('1','Xem danh sách sản phẩm','Xem danh sách các sản phẩm','xsp'),
+('2','Xem chi tiết sản phẩm','Xem thông tin chi tiết sản phẩm','xctsp'),
+('3','Sửa sản phẩm','Sửa thông tin chi tiết sản phẩm','ssp'),
+('4','Xóa sản phẩm','Xóa 1 sản phẩm','dsp'),
+('5','Thêm sản phẩm','Thêm mới 1 sản phẩm','tsp'),
+('6','Xem tài khoản','Xem danh sách tài khoản','xtk'),
+('7','Xem chi tiết tài khoản','Xem chiết thông tin 1 tài khoản','xcttk'),
+('8','Sửa tài khoản','Sửa thông tin 1 tài khoản','stk'),
+('9','Xóa tài khoản','Xóa 1 tài khoản','dtk'),
+('10','Thêm tài khoản','Thêm mới 1 tài khoản đi kèm với thông tin người dùng','ttk'),
+('11','Xem danh sách người dùng','Xem danh sách người dùng','xttu'),
+('12','Xem chi tiết người dùng','Xem thông tin 1 tài khoản','cttt'),
+('13','Sửa thông tin người dùng','Sửa thông tin 1 người dùng','sttu'),
+('14','Xóa người dùng','Xóa 1 người dùng','dttu'),
+('15','Xem danh sách hóa đơn','Xem danh sách hóa đơn','xhd'),
+('16','Xem chi tiết hóa đơn','Xem chi tiết 1 hóa đơn','cthd'),
+('17','Xóa hóa đơn','Xóa 1 hóa đơn','xhd'),
+

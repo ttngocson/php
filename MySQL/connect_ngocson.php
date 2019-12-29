@@ -1,7 +1,7 @@
 <?php
 $server = "localhost";
-$username = "transon";
-$password = "01695761004";
+$username = "root";
+$password = "";
 $dbname = "ngocson";
 
 // Ket noi database tintuc
@@ -12,5 +12,4 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
     exit();
 }
-//echo "Kết nối đến DB task5 thành công ...!".'<br>';
 ?>

@@ -8,6 +8,7 @@
         <?php
         require("connect_anhngocson.php");
         mysqli_set_charset($conn, 'UTF8');
+
         $sql1 = "SELECT TV.TENTV
                 From thanhvien AS TV
                 WHERE TV.MATV ='" .$_GET["id"] ."'";
